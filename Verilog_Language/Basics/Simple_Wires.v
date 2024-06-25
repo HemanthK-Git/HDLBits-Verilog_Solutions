@@ -1,7 +1,7 @@
 // Create a module with one input and one output that behaves like a wire.
 
-module top_module ( output zero );
+module top_module( input in, output out );
 	
-	assign zero = 1'b0;
+	assign out = in;
 	
 endmodule
