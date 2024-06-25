@@ -1,7 +1,10 @@
-// Create a module that implements a NOT gate.
+// Create a module that implements a AND gate.
 
-module top_module( input in, output out );
+module top_module( 
+    input a, 
+    input b, 
+    output out );
     
-    assign out=~in;
+    assign out = a & b;
 
 endmodule
