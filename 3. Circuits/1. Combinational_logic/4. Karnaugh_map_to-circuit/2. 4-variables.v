@@ -7,6 +7,6 @@ module top_module(
     input d,
     output out  ); 
     
-    assign out=((~a)*b*c)|(a*c*d)|((~a)*(~d))|((~c)*(~b));
+    assign out=((~a)&b&c)|(a&c&d)|((~a)&(~d))|((~c)&(~b));
 
 endmodule
