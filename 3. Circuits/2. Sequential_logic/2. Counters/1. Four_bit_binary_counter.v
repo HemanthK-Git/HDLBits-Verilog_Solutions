@@ -7,7 +7,7 @@ module top_module (
     output reg [3:0] q
 );
 
-    reg [3:0] i;
+   
 
     always @(posedge clk) begin
         if (reset) 
